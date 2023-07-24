@@ -319,12 +319,25 @@ h2.titleBackground {
 .about__desc {
   display: flex;
   justify-content: space-evenly;
+ 
+}
+.about_image{
+justify-content: center;
+margin-top: 48px;
+margin-left: 5px;
+}
+.about_image img{
+  height: 350px;
+  width: 300px;
+  border-radius: 10px;
+ 
 }
 
 .about__table,
 .about__parag {
   margin-top: 48px;
   padding: 0 12px;
+  
 }
 
 .about__parag {
@@ -344,6 +357,7 @@ h2.titleBackground {
 .aboutParag__desc {
   font-size: 16px;
   margin-bottom: 16px;
+  justify-content: center;
 }
 
 .about__table ul {
